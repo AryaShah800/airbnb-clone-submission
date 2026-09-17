@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4a4a4a" />
+    </marker>
+  </defs>
+  <rect width="1400" height="900" fill="#ffffff"/>
+  <text x="700" y="40" text-anchor="middle" font-size="24" font-weight="700" fill="#222">Production-Scale Vacation Rental Marketplace — Architecture</text>
+
+  <!-- Client layer -->
+  <g>
+    <rect x="40" y="80" width="1320" height="80" rx="10" fill="#fff5f6" stroke="#ff385c" stroke-width="1.5"/>
+    <text x="60" y="105" font-size="14" font-weight="700" fill="#ff385c">CLIENT LAYER</text>
+    <rect x="60" y="115" width="220" height="35" rx="6" fill="#fff" stroke="#ff385c"/>
+    <text x="170" y="137" text-anchor="middle" font-size="13">Web (React/Next.js, SSR/ISR)</text>
+    <rect x="300" y="115" width="220" height="35" rx="6" fill="#fff" stroke="#ff385c"/>
+    <text x="410" y="137" text-anchor="middle" font-size="13">Mobile Apps (iOS/Android)</text>
+    <rect x="540" y="115" width="260" height="35" rx="6" fill="#fff" stroke="#ff385c"/>
+    <text x="670" y="137" text-anchor="middle" font-size="13">CDN + Edge Cache (static assets, images)</text>
+  </g>
+
+  <!-- Edge / gateway -->
+  <g>
+    <rect x="40" y="190" width="1320" height="70" rx="10" fill="#f2f7ff" stroke="#3568d4" stroke-width="1.5"/>
+    <text x="60" y="212" font-size="14" font-weight="700" fill="#3568d4">EDGE / API GATEWAY</text>
+    <rect x="60" y="220" width="260" height="30" rx="6" fill="#fff" stroke="#3568d4"/>
+    <text x="190" y="240" text-anchor="middle" font-size="12">Load Balancer + WAF</text>
+    <rect x="340" y="220" width="260" height="30" rx="6" fill="#fff" stroke="#3568d4"/>
+    <text x="470" y="240" text-anchor="middle" font-size="12">API Gateway (authN, rate limiting)</text>
+    <rect x="620" y="220" width="260" height="30" rx="6" fill="#fff" stroke="#3568d4"/>
+    <text x="750" y="240" text-anchor="middle" font-size="12">GraphQL/REST BFF</text>
+  </g>
+
+  <!-- Microservices -->
+  <g>
+    <rect x="40" y="290" width="1320" height="150" rx="10" fill="#f4fbf4" stroke="#2f9e44" stroke-width="1.5"/>
+    <text x="60" y="312" font-size="14" font-weight="700" fill="#2f9e44">APPLICATION SERVICES (independently scaled)</text>
+
+    <rect x="60" y="325" width="185" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="152" y="345" text-anchor="middle" font-size="12" font-weight="600">Listings Service</text>
+    <text x="152" y="362" text-anchor="middle" font-size="10">CRUD, photos, pricing</text>
+    <text x="152" y="378" text-anchor="middle" font-size="10">rules, availability calendar</text>
+
+    <rect x="260" y="325" width="185" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="352" y="345" text-anchor="middle" font-size="12" font-weight="600">Search Service</text>
+    <text x="352" y="362" text-anchor="middle" font-size="10">Geo + filter queries,</text>
+    <text x="352" y="378" text-anchor="middle" font-size="10">ranking, autocomplete</text>
+
+    <rect x="460" y="325" width="185" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="552" y="345" text-anchor="middle" font-size="12" font-weight="600">Booking Service</text>
+    <text x="552" y="362" text-anchor="middle" font-size="10">Reservation state machine,</text>
+    <text x="552" y="378" text-anchor="middle" font-size="10">inventory locking</text>
+
+    <rect x="660" y="325" width="185" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="752" y="345" text-anchor="middle" font-size="12" font-weight="600">Payments Service</text>
+    <text x="752" y="362" text-anchor="middle" font-size="10">PCI-scoped, escrow,</text>
+    <text x="752" y="378" text-anchor="middle" font-size="10">payout scheduling</text>
+
+    <rect x="860" y="325" width="185" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="952" y="345" text-anchor="middle" font-size="12" font-weight="600">Media Service</text>
+    <text x="952" y="362" text-anchor="middle" font-size="10">Upload, transcode,</text>
+    <text x="952" y="378" text-anchor="middle" font-size="10">responsive image variants</text>
+
+    <rect x="1060" y="325" width="280" height="90" rx="6" fill="#fff" stroke="#2f9e44"/>
+    <text x="1200" y="345" text-anchor="middle" font-size="12" font-weight="600">Notifications / Messaging</text>
+    <text x="1200" y="362" text-anchor="middle" font-size="10">Email, SMS, push,</text>
+    <text x="1200" y="378" text-anchor="middle" font-size="10">host-guest chat</text>
+  </g>
+
+  <!-- Async layer -->
+  <g>
+    <rect x="40" y="460" width="1320" height="70" rx="10" fill="#fff9eb" stroke="#e08e00" stroke-width="1.5"/>
+    <text x="60" y="482" font-size="14" font-weight="700" fill="#e08e00">EVENT BUS / ASYNC PROCESSING</text>
+    <rect x="60" y="490" width="300" height="30" rx="6" fill="#fff" stroke="#e08e00"/>
+    <text x="210" y="510" text-anchor="middle" font-size="12">Kafka / SQS — booking, payment, media events</text>
+    <rect x="380" y="490" width="300" height="30" rx="6" fill="#fff" stroke="#e08e00"/>
+    <text x="530" y="510" text-anchor="middle" font-size="12">Worker fleet (autoscaled consumers)</text>
+    <rect x="700" y="490" width="300" height="30" rx="6" fill="#fff" stroke="#e08e00"/>
+    <text x="850" y="510" text-anchor="middle" font-size="12">Search indexer (near-real-time)</text>
+  </g>
+
+  <!-- Data layer -->
+  <g>
+    <rect x="40" y="560" width="1320" height="140" rx="10" fill="#f9f3ff" stroke="#8a4fd1" stroke-width="1.5"/>
+    <text x="60" y="582" font-size="14" font-weight="700" fill="#8a4fd1">DATA LAYER</text>
+
+    <rect x="60" y="595" width="220" height="85" rx="6" fill="#fff" stroke="#8a4fd1"/>
+    <text x="170" y="615" text-anchor="middle" font-size="12" font-weight="600">Primary DB</text>
+    <text x="170" y="632" text-anchor="middle" font-size="10">Postgres (sharded by region),</text>
+    <text x="170" y="647" text-anchor="middle" font-size="10">read replicas</text>
+
+    <rect x="300" y="595" width="220" height="85" rx="6" fill="#fff" stroke="#8a4fd1"/>
+    <text x="410" y="615" text-anchor="middle" font-size="12" font-weight="600">Search Index</text>
+    <text x="410" y="632" text-anchor="middle" font-size="10">Elasticsearch/OpenSearch</text>
+    <text x="410" y="647" text-anchor="middle" font-size="10">(geo + faceted search)</text>
+
+    <rect x="540" y="595" width="220" height="85" rx="6" fill="#fff" stroke="#8a4fd1"/>
+    <text x="650" y="615" text-anchor="middle" font-size="12" font-weight="600">Cache</text>
+    <text x="650" y="632" text-anchor="middle" font-size="10">Redis — sessions,</text>
+    <text x="650" y="647" text-anchor="middle" font-size="10">hot listing pages</text>
+
+    <rect x="780" y="595" width="220" height="85" rx="6" fill="#fff" stroke="#8a4fd1"/>
+    <text x="890" y="615" text-anchor="middle" font-size="12" font-weight="600">Object Storage</text>
+    <text x="890" y="632" text-anchor="middle" font-size="10">S3 / GCS — photos, media,</text>
+    <text x="890" y="647" text-anchor="middle" font-size="10">served via CDN</text>
+
+    <rect x="1020" y="595" width="320" height="85" rx="6" fill="#fff" stroke="#8a4fd1"/>
+    <text x="1180" y="615" text-anchor="middle" font-size="12" font-weight="600">Analytics Warehouse</text>
+    <text x="1180" y="632" text-anchor="middle" font-size="10">BigQuery/Snowflake — event</text>
+    <text x="1180" y="647" text-anchor="middle" font-size="10">stream from Kafka for BI/ML</text>
+  </g>
+
+  <!-- Deployment / infra -->
+  <g>
+    <rect x="40" y="730" width="1320" height="130" rx="10" fill="#f0f5f5" stroke="#4a4a4a" stroke-width="1.5"/>
+    <text x="60" y="752" font-size="14" font-weight="700" fill="#333">DEPLOYMENT &amp; SCALING STRATEGY</text>
+    <text x="60" y="775" font-size="12" fill="#333">• Frontend: static/ISR pages on CDN edge (Vercel/CloudFront) — scales horizontally with cache hit rate, no origin load per request</text>
+    <text x="60" y="795" font-size="12" fill="#333">• Backend: containerized services on Kubernetes, HPA on CPU/queue depth; stateless services scale independently per traffic shape</text>
+    <text x="60" y="815" font-size="12" fill="#333">• Data: Postgres sharded by geography/listing-id, read replicas for search-adjacent reads; Redis cache absorbs read-heavy listing traffic</text>
+    <text x="60" y="835" font-size="12" fill="#333">• Search: Elasticsearch cluster scaled by index size/QPS, updated via async indexer off the event bus (eventual consistency is acceptable)</text>
+    <text x="60" y="855" font-size="12" fill="#333">• Resilience: multi-AZ deployment, circuit breakers between services, blue/green deploys, booking writes go through idempotent, locked transactions</text>
+  </g>
+
+  <!-- Arrows -->
+  <line x1="700" y1="160" x2="700" y2="188" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="700" y1="260" x2="700" y2="288" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="700" y1="440" x2="700" y2="458" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="700" y1="530" x2="700" y2="558" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="700" y1="700" x2="700" y2="728" stroke="#4a4a4a" stroke-width="1.5" marker-end="url(#arrow)"/>
+</svg>

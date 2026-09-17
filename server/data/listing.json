@@ -1,0 +1,520 @@
+{
+  "id": "mirashya-ug10",
+  "title": "Romantic Jacuzzi 1BHK Candolim | Mirashya UG10",
+  "propertyType": "Entire serviced apartment in Candolim, India",
+  "location": "Candolim, Goa, India",
+  "guests": 4,
+  "bedrooms": 1,
+  "beds": 1,
+  "bathrooms": 1,
+  "rating": 4.95,
+  "reviewCount": 19,
+  "isGuestFavourite": true,
+  "isSuperhost": true,
+  "dates": {
+    "checkIn": "2023-10-14",
+    "checkOut": "2023-10-19",
+    "nights": 5,
+    "displayRange": "14 Oct 2023 – 19 Oct 2023"
+  },
+  "price": {
+    "nightly": 28498,
+    "currency": "₹",
+    "currencyCode": "INR",
+    "nights": 5,
+    "cleaningFee": 1500,
+    "serviceFee": 20242,
+    "taxes": 0,
+    "discount": 0
+  },
+  "host": {
+    "name": "Michelle & Neha",
+    "avatar": "/images/host-avatar.png",
+    "badge": "Superhost",
+    "yearsHosting": 1,
+    "rating": 4.95,
+    "reviews": 19,
+    "responseRate": "100%",
+    "responseTime": "within an hour",
+    "coHosts": [
+      {
+        "name": "Michelle",
+        "avatar": "/images/cohost-1.png"
+      },
+      {
+        "name": "Neha",
+        "avatar": "/images/cohost-2.png"
+      }
+    ],
+    "about": "Hi, we are Michelle & Neha! We take hospitality very seriously and are passionate about creating memorable stays in Goa. Mirashya UG10 was curated to combine the convenience of a modern serviced apartment with the luxury of a private jacuzzi retreat in the heart of Candolim."
+  },
+  "highlights": [
+    {
+      "icon": "workspace",
+      "title": "Dedicated workspace",
+      "description": "A common area with wifi that's well-suited for working."
+    },
+    {
+      "icon": "host",
+      "title": "Experienced host",
+      "description": "Michelle & Neha has 19 reviews for other places."
+    },
+    {
+      "icon": "location",
+      "title": "Great location",
+      "description": "100% of recent guests gave the location a 5-star rating."
+    }
+  ],
+  "description": "✨ Unwind in this romantic and serene 1BHK serviced apartment featuring a private Jacuzzi, tucked away in the peaceful neighborhood of Candolim — just minutes from the beach and Goa's vibrant dining scene.\n\n🌿 The apartment blends modern elegance with a relaxed coastal vibe. Step out into the balcony overlooking tranquil greenery, take a dip in the pristine swimming pool, or unwind in the warm bubbling jacuzzi.\n\n💻 High-speed fiber Wi-Fi with power backup ensures smooth remote working, while a fully equipped modular kitchen and cozy living lounge make it your perfect home away from home.",
+  "sleepingArrangements": [
+    {
+      "room": "Bedroom",
+      "bed": "1 double bed",
+      "image": "/images/img-4.jpg"
+    },
+    {
+      "room": "Living room",
+      "bed": "1 sofa bed",
+      "image": "/images/img-6.jpg"
+    }
+  ],
+  "categoryRatings": {
+    "cleanliness": 5,
+    "accuracy": 4.9,
+    "checkin": 5,
+    "communication": 5,
+    "location": 4.8,
+    "value": 4.8
+  },
+  "amenities": [
+    {
+      "category": "Scenic views",
+      "name": "Garden view",
+      "icon": "garden",
+      "highlight": true
+    },
+    {
+      "category": "Scenic views",
+      "name": "Pool view",
+      "icon": "pool-view"
+    },
+    {
+      "category": "Bathroom",
+      "name": "Private jacuzzi",
+      "icon": "jacuzzi",
+      "highlight": true
+    },
+    {
+      "category": "Bathroom",
+      "name": "Hot water",
+      "icon": "hot-water"
+    },
+    {
+      "category": "Bathroom",
+      "name": "Hair dryer",
+      "icon": "hair-dryer"
+    },
+    {
+      "category": "Bathroom",
+      "name": "Shampoo & Body soap",
+      "icon": "soap"
+    },
+    {
+      "category": "Bedroom and laundry",
+      "name": "Washing machine",
+      "icon": "washer"
+    },
+    {
+      "category": "Bedroom and laundry",
+      "name": "Essentials (towels, bed sheets, soap)",
+      "icon": "essentials"
+    },
+    {
+      "category": "Bedroom and laundry",
+      "name": "Hangers & Iron",
+      "icon": "iron"
+    },
+    {
+      "category": "Bedroom and laundry",
+      "name": "Bed linen & extra pillows",
+      "icon": "linen"
+    },
+    {
+      "category": "Entertainment",
+      "name": "HDTV with streaming & cable",
+      "icon": "tv",
+      "highlight": true
+    },
+    {
+      "category": "Entertainment",
+      "name": "Sound system",
+      "icon": "audio"
+    },
+    {
+      "category": "Heating and cooling",
+      "name": "Air conditioning",
+      "icon": "ac",
+      "highlight": true
+    },
+    {
+      "category": "Heating and cooling",
+      "name": "Ceiling fans",
+      "icon": "fan"
+    },
+    {
+      "category": "Home safety",
+      "name": "Exterior security cameras on property",
+      "icon": "camera",
+      "highlight": true
+    },
+    {
+      "category": "Home safety",
+      "name": "Smoke alarm",
+      "icon": "smoke",
+      "highlight": true
+    },
+    {
+      "category": "Home safety",
+      "name": "Carbon monoxide alarm",
+      "icon": "co"
+    },
+    {
+      "category": "Home safety",
+      "name": "Fire extinguisher & First aid kit",
+      "icon": "safety"
+    },
+    {
+      "category": "Internet and office",
+      "name": "Fast wifi (100+ Mbps)",
+      "icon": "wifi",
+      "highlight": true
+    },
+    {
+      "category": "Internet and office",
+      "name": "Dedicated workspace with desk & chair",
+      "icon": "workspace",
+      "highlight": true
+    },
+    {
+      "category": "Kitchen and dining",
+      "name": "Full kitchen with stove & microwave",
+      "icon": "kitchen",
+      "highlight": true
+    },
+    {
+      "category": "Kitchen and dining",
+      "name": "Refrigerator & Freezer",
+      "icon": "fridge"
+    },
+    {
+      "category": "Kitchen and dining",
+      "name": "Cooking basics (pots, pans, oil, salt)",
+      "icon": "cookware"
+    },
+    {
+      "category": "Kitchen and dining",
+      "name": "Dishes and silverware",
+      "icon": "dishes"
+    },
+    {
+      "category": "Kitchen and dining",
+      "name": "Electric kettle & toaster",
+      "icon": "kettle"
+    },
+    {
+      "category": "Location features",
+      "name": "Private entrance",
+      "icon": "door"
+    },
+    {
+      "category": "Location features",
+      "name": "Resort complex access",
+      "icon": "building"
+    },
+    {
+      "category": "Outdoor",
+      "name": "Private patio or balcony",
+      "icon": "balcony",
+      "highlight": true
+    },
+    {
+      "category": "Outdoor",
+      "name": "Shared outdoor swimming pool",
+      "icon": "pool",
+      "highlight": true
+    },
+    {
+      "category": "Outdoor",
+      "name": "Outdoor furniture",
+      "icon": "furniture"
+    },
+    {
+      "category": "Parking and facilities",
+      "name": "Free parking on premises",
+      "icon": "parking",
+      "highlight": true
+    },
+    {
+      "category": "Parking and facilities",
+      "name": "Elevator / Lift in building",
+      "icon": "lift"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-1",
+      "name": "Smit",
+      "date": "October 2023",
+      "tenure": "5 years on Airbnb",
+      "avatar": "/images/reviewer-1.png",
+      "rating": 5,
+      "comment": "The apartment is amazing and looks even better than the photos! The private jacuzzi was so relaxing after exploring Candolim beach. Michelle and Neha were incredible hosts — super responsive, hospitable, and gave wonderful restaurant recommendations."
+    },
+    {
+      "id": "rev-2",
+      "name": "Shivani",
+      "date": "September 2023",
+      "tenure": "2 years on Airbnb",
+      "avatar": "/images/reviewer-2.png",
+      "rating": 5,
+      "comment": "We had a wonderful stay. The apartment was spotless, beautifully designed, and loaded with thoughtful amenities. The shared swimming pool was pristine and tranquil. Will definitely book again when visiting Goa!"
+    },
+    {
+      "id": "rev-3",
+      "name": "Garima",
+      "date": "September 2023",
+      "tenure": "1 year on Airbnb",
+      "avatar": "/images/reviewer-3.png",
+      "rating": 5,
+      "comment": "Loved the calm villa vibe! The bedroom is very spacious, bed is super comfy, and having a private jacuzzi inside the apartment made our anniversary stay extra special."
+    },
+    {
+      "id": "rev-4",
+      "name": "Siddhant",
+      "date": "August 2023",
+      "tenure": "4 years on Airbnb",
+      "avatar": "/images/reviewer-4.png",
+      "rating": 5,
+      "comment": "Great place for remote working! The dedicated desk with fast Wi-Fi and power backup was seamless. Even during heavy Goa rains, everything functioned smoothly. Michelle was always just a message away."
+    },
+    {
+      "id": "rev-5",
+      "name": "Debjyoti",
+      "date": "August 2023",
+      "tenure": "3 years on Airbnb",
+      "avatar": "/images/reviewer-5.png",
+      "rating": 5,
+      "comment": "Super peaceful environment, close to the Candolim beach strip yet far enough to enjoy peaceful quiet evenings on the private balcony."
+    },
+    {
+      "id": "rev-6",
+      "name": "Kajal",
+      "date": "July 2023",
+      "tenure": "2 years on Airbnb",
+      "avatar": "/images/reviewer-6.png",
+      "rating": 5,
+      "comment": "Everything was pristine! Clean linens, well-maintained jacuzzi, great kitchen utensils, and prompt host communication. Highly recommended!"
+    }
+  ],
+  "images": [
+    {
+      "id": "img-1",
+      "room": "Living room 1",
+      "category": "Living room",
+      "caption": "Sofa · Warm ambient sconces · Coffee table · Flat-screen TV",
+      "url": "/images/img-1.jpg"
+    },
+    {
+      "id": "img-2",
+      "room": "Living room seating",
+      "category": "Living room",
+      "caption": "Cozy armchairs · Warm architectural downlights · Coastal aesthetic",
+      "url": "/images/img-2.jpg"
+    },
+    {
+      "id": "img-3",
+      "room": "Private Jacuzzi",
+      "category": "Bathroom",
+      "caption": "Private jacuzzi tub · Textured feature wall · Warm ambient mood lighting",
+      "url": "/images/img-3.jpg"
+    },
+    {
+      "id": "img-4",
+      "room": "Master Bedroom",
+      "category": "Bedroom",
+      "caption": "1 double bed · Crisp linen · Ambient headboard lights · Air conditioning",
+      "url": "/images/img-4.jpg"
+    },
+    {
+      "id": "img-5",
+      "room": "Exterior & Complex",
+      "category": "Outdoor",
+      "caption": "Mirashya Candolim complex · Private balconies · On-premise parking",
+      "url": "/images/img-5.jpg"
+    },
+    {
+      "id": "img-6",
+      "room": "Living room lounge",
+      "category": "Living room",
+      "caption": "Convertible sofa bed · Cushioned lounge area · High-speed Wi-Fi zone",
+      "url": "/images/img-6.jpg"
+    },
+    {
+      "id": "img-7",
+      "room": "Kitchen & Dining",
+      "category": "Kitchen",
+      "caption": "Modern modular kitchen · Gas stove · Microwave · Refrigerator",
+      "url": "/images/img-7.jpg"
+    },
+    {
+      "id": "img-8",
+      "room": "Balcony view",
+      "category": "Outdoor",
+      "caption": "Private balcony · Overlooking tropical greenery and garden",
+      "url": "/images/img-8.jpg"
+    },
+    {
+      "id": "img-9",
+      "room": "Shared Swimming Pool",
+      "category": "Outdoor",
+      "caption": "Resort-style outdoor swimming pool · Sun loungers · Tropical palms",
+      "url": "/images/img-9.jpg"
+    },
+    {
+      "id": "img-10",
+      "room": "En-suite Bathroom",
+      "category": "Bathroom",
+      "caption": "Modern vanity · Hot water geyser · Fresh towels and complimentary toiletries",
+      "url": "/images/img-10.jpg"
+    },
+    {
+      "id": "img-11",
+      "room": "Dedicated Workspace",
+      "category": "Living room",
+      "caption": "Ergonomic work desk · Multi-plug power outlets · High-speed fiber internet",
+      "url": "/images/img-11.jpg"
+    },
+    {
+      "id": "img-12",
+      "room": "Jacuzzi Hydromassage",
+      "category": "Bathroom",
+      "caption": "Hydromassage jets · Relaxing water therapy setup",
+      "url": "/images/img-12.jpg"
+    },
+    {
+      "id": "img-13",
+      "room": "Bedroom reading corner",
+      "category": "Bedroom",
+      "caption": "Bedside reading lamps · Wardrobe with hangers and digital safe",
+      "url": "/images/img-13.jpg"
+    },
+    {
+      "id": "img-14",
+      "room": "Dining area",
+      "category": "Kitchen",
+      "caption": "Dining table setting · Cutlery and glassware provided",
+      "url": "/images/img-14.jpg"
+    },
+    {
+      "id": "img-15",
+      "room": "Apartment foyer",
+      "category": "Living room",
+      "caption": "Keyless self check-in smart lock · Shoe rack and mirror",
+      "url": "/images/img-15.jpg"
+    },
+    {
+      "id": "img-16",
+      "room": "Garden seating",
+      "category": "Outdoor",
+      "caption": "Lush landscaping around the property · Walking pathways",
+      "url": "/images/img-16.jpg"
+    },
+    {
+      "id": "img-17",
+      "room": "Evening ambiance",
+      "category": "Living room",
+      "caption": "Warm ambient lighting throughout the serviced apartment",
+      "url": "/images/img-17.jpg"
+    },
+    {
+      "id": "img-18",
+      "room": "Complex amenities",
+      "category": "Outdoor",
+      "caption": "Gated security · 24/7 security guard · Elevator access to UG floor",
+      "url": "/images/img-18.jpg"
+    }
+  ],
+  "houseRules": [
+    "Check-in after 2:00 pm",
+    "Checkout before 11:00 am",
+    "4 guests maximum",
+    "No commercial photography or parties",
+    "Quiet hours after 10:00 pm"
+  ],
+  "safety": [
+    "Exterior security cameras on property",
+    "Smoke alarm installed",
+    "Carbon monoxide detector",
+    "First aid kit & fire extinguisher in utility closet"
+  ],
+  "cancellationPolicy": [
+    "Free cancellation for 48 hours after booking.",
+    "Cancel before 9 Oct for a partial refund.",
+    "Review the Host's full cancellation policy for details."
+  ],
+  "locationDetails": {
+    "neighborhood": "Candolim, Goa, India",
+    "description": "Candolim is one of Goa's most beloved coastal destinations. Known for its golden sand beach, peaceful atmosphere, vibrant shacks, water sports, and renowned restaurants like Fisherman's Wharf and Calamari. The apartment is located in a quiet enclave just off the main road, giving you immediate access to supermarkets, pharmacies, and scooter rentals while maintaining tranquility.",
+    "coordinates": {
+      "lat": 15.518,
+      "lng": 73.766
+    }
+  },
+  "nearbyListings": [
+    {
+      "id": "near-1",
+      "title": "Luxury Studio with Pool & Sun Deck",
+      "location": "Candolim, Goa",
+      "rating": 4.92,
+      "price": 14500,
+      "image": "/images/img-2.jpg",
+      "dates": "15-20 Oct"
+    },
+    {
+      "id": "near-2",
+      "title": "Boho Chic Villa with Private Plunge",
+      "location": "Calangute, Goa",
+      "rating": 4.98,
+      "price": 32000,
+      "image": "/images/img-9.jpg",
+      "dates": "14-19 Oct"
+    },
+    {
+      "id": "near-3",
+      "title": "Modern 2BHK Penthouse with Jacuzzi",
+      "location": "Candolim, Goa",
+      "rating": 4.89,
+      "price": 24900,
+      "image": "/images/img-3.jpg",
+      "dates": "18-23 Oct"
+    },
+    {
+      "id": "near-4",
+      "title": "Tropical Garden Suite near Beach",
+      "location": "Sinquerim, Goa",
+      "rating": 4.96,
+      "price": 19800,
+      "image": "/images/img-8.jpg",
+      "dates": "20-25 Oct"
+    },
+    {
+      "id": "near-5",
+      "title": "Designer 1BHK with Sunset Balcony",
+      "location": "Candolim, Goa",
+      "rating": 4.91,
+      "price": 22500,
+      "image": "/images/img-16.jpg",
+      "dates": "14-19 Oct"
+    }
+  ]
+}
